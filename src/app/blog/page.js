@@ -91,7 +91,7 @@ export default function Blog() {
               <p className = "text-lg pb-2"> layne passed away in 2002 from a heroin and cocaine overdose, he and kurt cobain both passed on <b style = {{ color: "var(--navbar-background)" }}>april 5th</b> </p>
             </div>
 
-            <div className = "w-1/3 pt-4 pl-8 pr-16">
+            <div className = "w-1/3 pt-4 pl-8">
               <p className = "text-xl font-bold pb-4" style = {{ color: "var(--navbar-background)" }}> mark arm</p>
               <Image src = "/markandkurt.jpeg"
                      alt = "mark arm and kurt cobain"
@@ -104,7 +104,7 @@ export default function Blog() {
               <p className = "text-lg pb-2"> unfortunately, mudhoney's lack of mainstream success can be attributed to release of <b style = {{ color: "var(--navbar-background)" }}>nirvana's <i>nevermind</i></b> and the subsequent influx of grunge in popular culture that overshadowed the band's new albums </p>
             </div>
 
-            <div className = "w-1/3 pt-4 pl-8 pr-16">
+            <div className = "w-1/3 pt-4 pl-8">
               <p className = "text-xl font-bold pb-4" style = {{ color: "var(--navbar-background)" }}>  kurt cobain</p>
               <Image src = "/kurtimage.jpeg"
                      alt = "kurt cobain"

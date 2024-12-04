@@ -68,7 +68,7 @@ export default function Home() {
                         alt = "eddie vedder and chris cornell"
                         width = {525}
                         height = {525}
-                        className = "ml-8 mt-10 rounded-lg"
+                        className = "ml-8 mt-10 rounded-lg md:hover:scale-95 transition-transform"
                     />
                     <p className = "text-center text-lg"> Eddie Vedder and Chris Cornell of Temple of the Dog </p>
 

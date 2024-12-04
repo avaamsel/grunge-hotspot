@@ -11,7 +11,7 @@ export default function Navbar() {
           </Link>
               <ul className="flex items-center justify-end space-x-4 text-lg font-larde">
                   <li className="md:hover:underline">
-                      <a href="/blog"> grunge history! </a>
+                      <Link href="/blog"> grunge history! </Link>
                   </li>
                   <li className="md:hover:underline">
                       <Link href="/photos"> find a new album! </Link>
