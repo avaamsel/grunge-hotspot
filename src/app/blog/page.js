@@ -40,7 +40,7 @@ export default function Blog() {
               <p className = "text-lg pb-2 pt-2"> <b>groups:</b> soundgarden, temple of the dog, + audioslave</p>
               <p className = "text-lg pb-2"> one of the biggest figures in grunge, chris cornell helped to define and establish the genre </p>
               <p className = "text-lg pb-2"> as the <b style = {{ color: "var(--navbar-background)" }}>frontman of soundgarden,</b> he combined heavy metal influences with his astonishing voice to create the group's iconic sound </p>
-              <p className = "text-lg pb-2"> through <b style = {{ color: "var(--navbar-background)" }}>audioslave,</b> a super group created with members of the metal band <b>rage against the machine</b>, strayed away from the metal influcences and had a slower, more melancholic sound</p>
+              <p className = "text-lg pb-2"> through <b style = {{ color: "var(--navbar-background)" }}>audioslave,</b> a supergroup created with members of the metal band <b>rage against the machine</b>, he strayed away from the metal infuences and had a slower, more melancholic sound</p>
               <p className = "text-lg pb-2"> cornell passed away in 2017 by suicide, the last song he performed was <b style = {{ color: "var(--navbar-background)" }}><i>badmotorfinger's</i> "slaves and bulldozers"</b></p>
             </div>
 
@@ -54,9 +54,9 @@ export default function Blog() {
 
               <p className = "text-lg pb-2 pt-2"> <b>groups:</b> malfunkshun + mother love bone</p>
               <p className = "text-lg pb-2"> while not remembered as well as other figures in grunge, wood was seen as a major inspiration and could've been one of grunge's greatest stars</p>
-              <p className = "text-lg pb-2"> wood's groups <b style = {{ color: "var(--navbar-background)" }}> malfunkshun and mother love bone</b> had heavy glam rock influences, adopting the captivating persona "landrew the love child"</p>
+              <p className = "text-lg pb-2"> wood's groups <b style = {{ color: "var(--navbar-background)" }}> malfunkshun and mother love bone</b> had heavy glam rock influences, while in them adopting the captivating persona "landrew the love child"</p>
               <p className = "text-lg pb-2"> andrew wood passed away in 1990 from a heroin overdose, weeks before mother love bone's debut album <i className = "font-bold" style = {{ color: "var(--navbar-background)" }}> apple </i> was to release</p>
-              <p className = "text-lg pb-2"> the super group <b style = {{ color: "var(--navbar-background)" }}>temple of the dog</b> was created in wood's honor after his passing, songs <b style = {{ color: "var(--navbar-background)" }}>"say hello 2 heaven"</b> and <b style = {{ color: "var(--navbar-background)" }}>"reach down"</b> were written about wood by close friend chris cornell </p>
+              <p className = "text-lg pb-2"> the supergroup <b style = {{ color: "var(--navbar-background)" }}>temple of the dog</b> was created in wood's honor after his passing, songs <b style = {{ color: "var(--navbar-background)" }}>"say hello 2 heaven"</b> and <b style = {{ color: "var(--navbar-background)" }}>"reach down"</b> were written about wood by close friend chris cornell </p>
             </div>
 
             <div className = "w-1/3 pt-4 pl-8">
@@ -70,7 +70,7 @@ export default function Blog() {
               <p className = "text-lg pb-2"> vedder gained his footing in grunge as a vocalist in <b style = {{ color: "var(--navbar-background)" }}>temple of the dog's "hunger strike",</b> going from previously unknown in the scene to a major figurehead </p>
               <p className = "text-lg pb-2"> pearl jam, formed with members from temple of the dog, immediately hit it big with their debut album, <i className = "font-bold" style = {{ color: "var(--navbar-background)" }}> ten,</i> known as one of the greatest albums of all time</p>
               <p className = "text-lg pb-2"> vedder's vocal power is also seen in pearl jam's other albums including, <i className = "font-bold" style = {{ color: "var(--navbar-background)" }}>vs., vitalogy, and no code</i></p>
-              <p className = "text-lg pb-2"> pearl jam is known not only for vedder's vocals, but their favoring of more of an <b>acoustic sound</b> compared to the favored sharp, electric one, and powerful lyrics about war and loss</p>
+              <p className = "text-lg pb-2"> pearl jam is known not only for vedder's vocals, but their favoring of more of an <b>acoustic sound</b> compared a sharp, electric one, and powerful lyrics about war and loss</p>
             </div>
           </div>
 
@@ -85,9 +85,9 @@ export default function Blog() {
 
               <p className = "text-lg pb-2 pt-2"> <b>groups:</b> alice in chains + mad season</p>
               <p className = "text-lg pb-2"> layne is known in the genre for his low, gravelly voice with an extremely large vocal range </p>
-              <p className = "text-lg pb-2"> through <b style = {{ color: "var(--navbar-background)" }}>alice in chains' albums <i>dirt, facelift, and jar of flies</i></b> are extremely deep lyrics about loss, drug addiction, and depression, <b style = {{ color: "var(--navbar-background)" }}> jar of flies</b> is the most unique out of the group's four, being wholey acoustic</p>
+              <p className = "text-lg pb-2"> <b style = {{ color: "var(--navbar-background)" }}>alice in chains' albums <i>dirt, facelift, and jar of flies</i></b> contain extremely deep lyrics about loss, drug addiction, and depression, <b style = {{ color: "var(--navbar-background)" }}> jar of flies</b> is the most unique out of the group's four, being wholey acoustic</p>
               <p className = "text-lg pb-2"> alice in chains' final album with layne, dubbed <b style = {{ color: "var(--navbar-background)" }}>"tripod",</b> combines both metal and acoustic tracks and features guitarist <b style = {{ color: "var(--navbar-background)" }}>jerry cantrell</b> as the singer in a good number of songs, complimenting layne's unique voice</p>
-              <p className = "text-lg pb-2"> layne took a break from both of his groups due to his <b>worsening addiction to heroin and the passing of his fiancee, demri parrott,</b> after 3 years, alice in chains plays for <b style = {{ color: "var(--navbar-background)" }}>mtv unplugged,</b> physically weaker and less powerful, the performance is a testament to the group's strong relationship, and <b>staley and cantrell's friendship</b></p>
+              <p className = "text-lg pb-2"> layne took a break from both of his groups due to his <b>worsening addiction to heroin and the passing of his fiancee, demri parrott,</b> after 3 years, alice in chains played for <b style = {{ color: "var(--navbar-background)" }}>mtv unplugged,</b> here, layne is physically weaker and less powerful vocally, the performance is a testament to the group's strong relationship, and <b>staley and cantrell's friendship</b></p>
               <p className = "text-lg pb-2"> layne passed away in 2002 from a heroin and cocaine overdose, he and kurt cobain both passed on <b style = {{ color: "var(--navbar-background)" }}>april 5th</b> </p>
             </div>
 
