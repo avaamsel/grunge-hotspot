@@ -21,7 +21,7 @@ export default function Blog() {
                  alt = "deep six"
                  width = {375}
                  height = {375}
-                 className = "ml-24 mt-8 rounded-lg"/>
+                 className = "ml-24 mt-8 rounded-lg md:hover:scale-95 transition-transform"/>
         </div>
       </div>
 
