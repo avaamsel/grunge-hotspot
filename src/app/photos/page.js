@@ -6,7 +6,8 @@ export default function Photos() {
   return (
     <div>
       <Navbar/>
-      <p className = "text-xl font-bold text-center pt-4 pb-8"> there is more to grunge than nirvana's <i>nevermind</i></p>
+      <p className = "text-xl font-bold text-center pt-4 pb-4"> there is more to grunge than nirvana's <i>nevermind</i></p>
+      <p className = "text-center pb-8 text-xl"> recommendations are based on various criteria like vocal sound, influences, acoustic vs electric, and more! </p>
 
       <div className="border md:hover:scale-95 transition-transform border-primary-200 rounded-xl p-4 gap-8 flex items-center justify-center space-x-4 w-full max-w-4xl mx-auto" style={{ background: "var(--navbar-background)" }}>
   

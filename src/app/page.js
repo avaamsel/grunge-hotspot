@@ -53,12 +53,12 @@ export default function Home() {
             <div className = "flex items-center">
                 <div className = "left-column text-left">
                     <p className = "text-xl font-bold ml-8" style = {{ color: "var(--navbar-background)" }}> Some of grunge favorites:</p>
-                    <p className = "text-xl font-bold ml-8 pt-4 pb-2"> Holy Trinity: </p>
+                    <p className = "text-xl font-bold ml-8 pt-4 pb-2"> "Holy Trinity": </p>
                         <p className = "pl-16 text-xl"> Layne Staley, Chris Cornell, and Andrew Wood</p>
                     <p className = "text-xl font-bold ml-8 pt-4 pb-2"> An Underrated Band: </p>
                         <p className = "pl-16 text-xl"> Screaming Trees!</p>
                     <p className = "text-xl font-bold ml-8 pt-4 pb-2"> Favorite MTV Unplugged: </p>
-                        <p className = "pl-16 text-xl"> Alice in Chain's performance by far</p>
+                        <p className = "pl-16 text-xl"> Alice in Chain's performance by far!</p>
                     <p className = "text-xl font-bold ml-8 pt-4 pb-2"> Favorite Supergroup: </p>
                         <p className = "pl-16 text-xl"> Temple of the Dog or Mad Season!</p>
                 </div>
