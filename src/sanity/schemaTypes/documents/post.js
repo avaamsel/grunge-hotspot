@@ -20,8 +20,8 @@ export default {
       },
     },
     {
-      name: "description",
-      title: "Description",
+      name: "groups",
+      title: "Groups",
       type: "text",
       validation: (Rule) => Rule.required(),
     },

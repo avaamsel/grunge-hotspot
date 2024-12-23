@@ -6,18 +6,28 @@ import { urlFor } from "@/sanity/lib/image";
 import { tryGetImageDimensions } from "@sanity/asset-utils";
 import Image from "next/image";
 import Navbar from "@/app/components/Navbar";
+import Footer from "@/app/components/Footer";
+
+const portableTextComponents = {
+  types: {
+    image: ImageComponent,
+  },
+  marks: {
+    strong: ({ children }) => <strong style = {{ color: "var(--navbar-background)" }}>{children}</strong>,
+  },
+};
 
 export default async function Post({ params }) {
   const post = await getPost(params.post);
 
   return (
-    <div className = "py-8 max-w-5xl px-4 mx-auto">
+    <div>
       <Navbar/>
       <PostHeader post = {post} />
-      <hr className = "border-primary-200"/>
-      <article className = "prose md:prose-md prose-primary mx-auto">
-        <PortableText value = {post.content} components = {[portableTextComponents]} />
+      <article style = {{color: "#ffffff"}} className = "prose md:prose-md prose-primary mx-auto text-lg">
+        <PortableText value = {post.content} components = {portableTextComponents} />
       </article>
+      <Footer/>
     </div>
   );
 }
@@ -25,7 +35,7 @@ export default async function Post({ params }) {
 async function getPost(slug) {
   const query = `*[_type == "post" && slug.current == $mySlug][0] {
     title, 
-    description,
+    groups,
     "slug": slug.current,
     image,
     "content": coalesce(content, [])
@@ -41,12 +51,6 @@ async function getPost(slug) {
     return post;
   }
 }
-
-const portableTextComponents = {
-  types: {
-    image: ImageComponent,
-  },
-};
 
 function ImageComponent({ value }) {
   const { width, height } = tryGetImageDimensions(value);
