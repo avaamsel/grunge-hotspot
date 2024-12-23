@@ -1,12 +1,15 @@
 import Navbar from "../components/Navbar";
 import Image from "next/image";
 import Footer from "../components/Footer";
+import {client} from "@/sanity/lib/client";
+import PostCard from "./components/PostCard";
 
-export default function History() {
+export default async function History() {
+  const posts = await getPosts();
   return (
     <div>
       <Navbar/>
-      <div className = "flex items-center">
+      {/* <div className = "flex items-center">
         <div className = "w-1/2 pt-4 pl-8 pr-16">
           <i className= "text-xl font-bold pb-2 "> grunge's origins: </i>
           <p className = "text-xl font-bold pl-4" style = {{ color: "var(--navbar-background)" }}> <i> grunge is from washington!</i></p>
@@ -118,9 +121,28 @@ export default function History() {
               <p className = "text-lg pb-2"> kurt passed away in 1994 by suicide, leaving behind wife, <b style = {{ color: "var(--navbar-background)" }}>kourtney love,</b> singer of fellow grunge band, Hole, and year-old daughter, <b style = {{ color: "var(--navbar-background)" }}>frances bean</b></p>
             </div>
           </div>
-        </div>
+        </div> */}
 
+      <div className = "py-8 max-w-7xl px-4 mx-auto">
+        <div className = "grid grid-cols-1 md:grid-cols-3 gap-4">
+          {posts.map((post) => (
+          <PostCard key = {post.slug} post = {post}/>
+        ))}
+        </div>
+      </div>
       <Footer/>
     </div>
   )
 };
+
+async function getPosts() {
+  const query = `*[_type == "post"] {
+    title, 
+    description,
+    "slug": slug.current,
+    image
+  }`;
+
+  const post = await client.fetch(query);
+  return post;
+}

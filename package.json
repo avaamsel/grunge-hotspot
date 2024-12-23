@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@portabletext/react": "^3.2.0",
     "@sanity/image-url": "^1.1.0",
     "@sanity/vision": "^3.68.3",
     "next": "15.0.3",
@@ -16,9 +17,11 @@
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
     "sanity": "^3.68.3",
+    "sanity-plugin-media": "^2.3.2",
     "styled-components": "^6.1.13"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
     "postcss": "^8",
