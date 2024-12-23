@@ -20,9 +20,9 @@ export default function Home() {
                 <div className = "w-1/2 p-2 pl-4">
                     <i className= "text-xl font-bold pb-2" style = {{ color: "var(--navbar-background)" }}> hi! i'm ava! </i>
                     <p className = "text-xl"> i've been a grunge fan since the womb, where my favorite song in-utero was pearl jam's <b>"corduroy".</b> my mom is an original grunge fan,
-                        having been to the infamous <b style = {{ color: "var(--navbar-background)" }}>'99 woodstock</b> and seeing countless bands in concert, her favorite of which being <b style = {{ color: "var(--navbar-background)" }}>red hot chili peppers</b>. </p>
-                    <p className = "mt-8 text-xl"> my favorite band is <b style = {{ color: "var(--navbar-background)" }}>alice in chains</b>. i also dabble in <b>metal, punk, and folk</b> genres. </p>
-                    <p className = "text-xl"> i'm a huge south park fan, have three cats, play lots of pokemon, and have seen the <b>red hot chili peppers</b> in concert about four times. </p>
+                        having been to the infamous <b style = {{ color: "var(--navbar-background)" }}>'99 woodstock</b> and seeing countless bands in concert, her favorite of which being <b style = {{ color: "var(--navbar-background)" }}>red hot chili peppers.</b> </p>
+                    <p className = "mt-8 text-xl"> my favorite band is <b style = {{ color: "var(--navbar-background)" }}>alice in chains.</b> i also dabble in <b>metal, punk, and folk</b> genres. </p>
+                    <p className = "text-xl"> i'm a huge south park fan, have three cats, and have seen the <b>red hot chili peppers</b> in concert about four times. </p>
                 </div>
                 <div>
                     <Image src = "/mumsypowoodstock.png"

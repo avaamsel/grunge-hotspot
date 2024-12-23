@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar"
 import Image from "next/image";
 import Footer from "../components/Footer";
 
-export default function Photos() {
+export default function Albums() {
   return (
     <div>
       <Navbar/>

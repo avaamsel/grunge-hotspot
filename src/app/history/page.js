@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 import Image from "next/image";
 import Footer from "../components/Footer";
 
-export default function Blog() {
+export default function History() {
   return (
     <div>
       <Navbar/>
