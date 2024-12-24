@@ -6,6 +6,7 @@ import PostCard from "./components/PostCard";
 
 export default async function History() {
   const posts = await getPosts();
+  
   return (
     <div>
       <Navbar/>
